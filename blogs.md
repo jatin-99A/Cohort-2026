@@ -1,0 +1,1 @@
+1- How DNS Resolution Works --- https://howdnsworkss.hashnode.dev/i-bet-youll-understand-dns-after-reading-this?showSharer=true
