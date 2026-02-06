@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #14120B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    color: #EDECEC;
+    width: 75vw;
+    max-width: 1400px;
+    height: 100%;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.logo svg {
+    width: 6.3rem;
+    height: auto;
+}
+
+
+
+nav {
+    width: 100%;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #EDECEC;
+    margin-left: 1.8rem;
+    font-size: 0.9rem;
+    font-family: "Roboto", sans-serif;
+}
+
+nav .nav-btns button {
+    padding: 0.4rem 0.6rem;
+    border-radius: 20px;
+    margin-left: 3px;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+nav .download {
+    &:hover {
+        background-color: #D7D6D5;
+    }
+}
+
+nav .sign-in {
+    color: #EDECEC;
+    background-color: inherit;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+
+    &:hover {
+        background-color: #1B1913;
+    }
+
+}
+
+.hero-section {
+    width: 100%;
+}
+
+.hero-section h1 pre {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: -1px;
+    margin-top: 7rem;
+    font-weight: 400;
+    color: #EDECEC;
+
+}
+.hero-section button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+.hero-section button i {
+    padding-left: 0.2rem;
+}
+.img{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.img img {
+    width: 100%;
+}
